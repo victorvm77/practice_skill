@@ -1,5 +1,5 @@
 public class practice{
     public static int divide(int x, int y) {
-        return x+y;
+        return x/y;
     }
 }
