@@ -1,10 +1,11 @@
-import static org.junit.Assert.*;
-import org.junit.*;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class practiceTest {
    @Test 
     public void Division(){
-        assertEquals(2, practice.divide(4,2));
+        assertEquals(1, practice.divide(4,2));
     }
 }
 
